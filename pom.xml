@@ -8,8 +8,8 @@
 	</parent>
 
 	<groupId>org.webjars</groupId>
-	<artifactId>fancyBox</artifactId>
-	<version>2.1.5</version>
+	<artifactId>fancybox</artifactId>
+	<version>2.1.5-SNAPSHOT</version>
 	<name>fancyBox</name>
 	<description>Fancy jQuery Lightbox Alternative</description>
 	<url>http://webjars.org</url>
@@ -38,9 +38,9 @@
 	</dependencies>
 
 	<scm>
-		<url>https://github.com/webjars/fancyBox</url>
-		<connection>scm:git:https://github.com/webjars/fancyBox.git</connection>
-		<developerConnection>scm:git:https://github.com/webjars/fancyBox.git</developerConnection>
+		<url>https://github.com/webjars/fancybox</url>
+		<connection>scm:git:https://github.com/webjars/fancybox.git</connection>
+		<developerConnection>scm:git:https://github.com/webjars/fancybox.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -88,7 +88,7 @@
 									dest="${project.build.directory}" />
 								<echo message="moving resources" />
 								<move todir="${destDir}">
-									<fileset dir="${project.build.directory}/${project.artifactId}-${upstream.version}/source" />
+									<fileset dir="${project.build.directory}/fancyBox-${upstream.version}/source" />
 								</move>
 							</target>
 						</configuration>
